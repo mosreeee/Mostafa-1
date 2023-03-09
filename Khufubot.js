@@ -9162,7 +9162,7 @@ await khufuBotInc.send5ButImg(from, `╔═══════✪「 مالك 」
 ╠${prefix}pediaemoji
 ╠${prefix}microsoftemoji
 ╠═══════✪「 أنيمي 」
-╠${prefix}naruto
+╠${prefix}ناروتو
 ╠${prefix}yaoi
 ╠${prefix}neko2
 ╠${prefix}waifu
