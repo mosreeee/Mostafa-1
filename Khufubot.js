@@ -630,7 +630,7 @@ khufuBotInc.sendMessage(from, {text:`\`\`\`「 Wa.me Link Detected 」\`\`\`\n\n
 //anti bad words by khufu
 if (antiToxic)
 if (bad.includes(messagesD)) {
-tos = ['يملحد','يكافر','استغفر ربك','هتروحو من ربنا فين ي معرصين','كافرررررررررررر']
+tos = ['استغفر ربك','استغفر ربك','استغفر ربك','استغفر ربك','استغفر ربك']
 sin =  tos[Math.floor(Math.random() * (tos.length))]
 reply(sin)
 if (m.text) {
@@ -972,11 +972,11 @@ ${arr.slice(0, 3).join('')}
 ${arr.slice(3, 6).join('')}
 ${arr.slice(6).join('')}
 
-${isWin ? `@${winner.split('@')[0]} فاز!` : isTie ? `اتقفلت هععع اجين 😜❤` : `دورك ${['❌', '⭕'][1 * room.game._currentTurn]} (@${room.game.currentTurn.split('@')[0]})`}
+${isWin ? `@${winner.split('@')[0]} فاز!` : isTie ? `ااتقفلت ياحبي عيد تاني ❤` : `دورك ${['❌', '⭕'][1 * room.game._currentTurn]} (@${room.game.currentTurn.split('@')[0]})`}
 ❌: @${room.game.playerX.split('@')[0]}
 ⭕: @${room.game.playerO.split('@')[0]}
 
-اهم حاجه انك مبسوط 😂❤t`
+اهم حاجه انك متعصب عمر 😂❤t`
 	    if ((room.game._currentTurn ^ isSurrender ? room.x : room.o) !== m.chat)
 	    room[room.game._currentTurn ^ isSurrender ? 'x' : 'o'] = m.chat
 	    if (room.x !== room.o) await khufuBotInc.sendText(room.x, str, m, { mentions: parseMention(str) } )
@@ -1094,7 +1094,7 @@ const reactionMessage = {
                 const timestampe = speed();
 const latensie = speed() - timestampe
                 const menulist = `┌─❖
-│「 hi😡 」
+│「   اهلا💙 」
 └┬❖ 「 ${pushname} 」
 ┌┤✑  انت مبسوط معانا? 😄
 │└────────────┈ ⳹
@@ -1614,7 +1614,7 @@ Type *surrender* to surrender and admit defeat`
             state: 'WAITING'
             }
             if (text) room.name = text
-            reply('استني الخصم 😡' + (text ? ` Type The Command Below ${prefix}${command} ${text}` : ''))
+            reply('استني صحبك يقبل' + (text ? ` Type The Command Below ${prefix}${command} ${text}` : ''))
             this.game[room.id] = room
             }
             }
@@ -8690,7 +8690,7 @@ khufuBotInc.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key
                                 }
                             }, {
                                 callButton: {
-                                    displayText: 'ozx 💗',
+                                    displayText: ' Mostafa 💗',
                                     url: `${botscript}`
                                 }
                             }, {
@@ -8723,7 +8723,7 @@ khufuBotInc.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key
                         } else if (setbot.templateDocument) {
                         let buttonmenu = [
         	{ urlButton: { displayText: `قناتي 🍒`, url : `${websitex}` } },
-            { urlButton: { displayText: `قناه اوزكس 🌚`, url: `${botscript}` } },
+            { urlButton: { displayText: `قناه مصطفي 🌚`, url: `${botscript}` } },
             { quickReplyButton: { displayText: `اوامر 😜`, id: 'allmenu'} },
             { quickReplyButton: { displayText: `القائمه❤`, id: 'command'} },
             { quickReplyButton: { displayText: `المالك🤣`, id: 'owner'} }
@@ -8753,101 +8753,101 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								]
 							},
 							{
-								"title": "bot khufu ❤️",
+								"title": "bot Mostafa ❤️",
 								"rows": [
 									{
 										"title": "اوامر كلها×፝֟͜×",
-										"description": "ᴹᴿ᭄𝐾𝐻𝑈𝐹𝑈 ×፝֟͜×",
+										"description": "ᴹᴿ᭄Mostafa ×፝֟͜×",
 										"rowId": `${prefix}allmenu`
 									},
 									{
 										"title": "اوامر المالك ×፝֟͜×",
-										"description": "ᴹᴿ᭄𝐾𝐻𝑈𝐹𝑈 ×፝֟͜×",
+										"description": "ᴹᴿ᭄Mostafa ×፝֟͜×",
 										"rowId": `${prefix}ownermenu`
 										},
 									{
 										"title": "اوامر جروب ×፝֟͜×",
-										"description": "ᴹᴿ᭄𝐾𝐻𝑈𝐹𝑈 ×፝֟͜×",
+										"description": "ᴹᴿ᭄Mostafa ×፝֟͜×",
 										"rowId": `${prefix}groupmenu`
 										},
 										{
 										"title": "اوامر لوجو ×፝֟͜×",
-										"description": "ᴹᴿ᭄𝐾𝐻𝑈𝐹𝑈 ×፝֟͜×",
+										"description": "ᴹᴿ᭄Mostafa ×፝֟͜×",
 										"rowId": `${prefix}makermenu`
 									},
 									{
 										"title": "اوامر اغاني ×፝֟͜×",
-										"description": "ᴹᴿ᭄𝐾𝐻𝑈𝐹𝑈 ×፝֟͜×",
+										"description": "ᴹᴿ᭄Mostafa ×፝֟͜×",
 										"rowId": `${prefix}soundmenu`
 									},
 									{
 										"title": "اوامر تحمل ×፝֟͜×️",
-										"description": "ᴹᴿ᭄𝐾𝐻𝑈𝐹𝑈 ×፝֟͜×",
+										"description": "ᴹᴿ᭄Mostafa ×፝֟͜×",
 										"rowId": `${prefix}downloadmenu`
 									},
 									{
 										"title": "اوامر ال استيكر×፝֟͜×",
-										"description": "ᴹᴿ᭄𝐾𝐻𝑈𝐹𝑈 ×፝֟͜×",
+										"description": "ᴹᴿ᭄Mostafa ×፝֟͜×",
 										"rowId": `${prefix}stickermenu`
 									},
 									{
 										"title": "اوامر البحث ×፝֟͜×",
-										"description": "ᴹᴿ᭄𝐾𝐻𝑈𝐹𝑈 ×፝֟͜×",
+										"description": "ᴹᴿ᭄Mostafa ×፝֟͜×",
 										"rowId": `${prefix}searchmenu`
 									},
 									{
 										"title": "اعدادات اوامر×፝֟͜×",
-										"description": "ᴹᴿ᭄𝐾𝐻𝑈𝐹𝑈 ×፝֟͜×",
+										"description": "ᴹᴿ᭄Mostafa ×፝֟͜×",
 										"rowId": `${prefix}toolmenu`
 									},
 									{
 										"title": "اوامر صور ×፝֟͜×",
-										"description": "ᴹᴿ᭄𝐾𝐻𝑈𝐹𝑈 ×፝֟͜×",
+										"description": "ᴹᴿ᭄Mostafa ×፝֟͜×",
 										"rowId": `${prefix}randomimagemenu`
 									},
 									{
 										"title": "تعديل علي صور ×፝֟͜×️",
-										"description": "ᴹᴿ᭄𝐾𝐻𝑈𝐹𝑈 ×፝֟͜×",
+										"description": "ᴹᴿ᭄Mostafa ×፝֟͜×",
 										"rowId": `${prefix}imageeffectmenu`
 									},
 										{
 											"title": "اوامر ال انمي ×፝֟͜×",
-										"description": "ᴹᴿ᭄𝐾𝐻𝑈𝐹𝑈 ×፝֟͜×",
+										"description": "ᴹᴿ᭄Mostafa ×፝֟͜×",
 										"rowId": `${prefix}animemenu`
 										},
 										{
 											"title": "اوامر ايمو ×፝֟͜×",
-										"description": "ᴹᴿ᭄𝐾𝐻𝑈𝐹𝑈 ×፝֟͜×",
+										"description": "ᴹᴿ᭄Mostafa ×፝֟͜×",
 										"rowId": `${prefix}emotemenu`
 										},
 										{
 										"title": "نمي استيكر ×፝֟͜×️",
-										"description": "ᴹᴿ᭄𝐾𝐻𝑈𝐹𝑈 ×፝֟͜×",
+										"description": "ᴹᴿ᭄Mostafa ×፝֟͜×",
 										"rowId": `${prefix}animestickermenu`
 									     },
 									{
 										"title": "شكس انمي ×፝֟͜×",
-										"description": "ᴹᴿ᭄𝐾𝐻𝑈𝐹𝑈 ×፝֟͜×",
+										"description": "ᴹᴿ᭄Mostafa ×፝֟͜×",
 										"rowId": `${prefix}nsfwmenu`
 									     },
 										{
 											"title": "حجات مسليه ×፝֟͜×",
-										"description": "ᴹᴿ᭄𝐾𝐻𝑈𝐹𝑈 ×፝֟͜×",
+										"description": "ᴹᴿ᭄Mostafa ×፝֟͜×",
 										"rowId": `${prefix}funmenu`
 										},
 										{
 										"title": "العاب ×፝֟͜×",
-										"description": "ᴹᴿ᭄𝐾𝐻𝑈𝐹𝑈 ×፝֟͜×",
+										"description": "ᴹᴿ᭄Mostafa ×፝֟͜×",
 										"rowId": `${prefix}indomenu`
 									},
 										{
 											"title": "اوامر صوت و استيكر ×፝֟͜×️",
-										"description": "ᴹᴿ᭄𝐾𝐻𝑈𝐹𝑈 ×፝֟͜×",
+										"description": "ᴹᴿ᭄Mostafa ×፝֟͜×",
 										"rowId": `${prefix}convertmenu`
 										},
 										{
 											"title": "اوامر جروب بل عربي ×፝֟͜×️",
-										"description": "ᴹᴿ᭄𝐾𝐻𝑈𝐹𝑈 ×፝֟͜×",
+										"description": "ᴹᴿ᭄Mostafa ×፝֟͜×",
 										"rowId": `${prefix}group11`
 										}
 								]
@@ -8857,7 +8857,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"rows": [
 									{
 										"title": "كلم شخص غريب",
-										"description": " ᴹᴿ᭄𝐾𝐻𝑈𝐹𝑈 ×፝֟͜×",
+										"description": " ᴹᴿ᭄Mostafa ×፝֟͜×",
 										"rowId": `${prefix}anonymousmenu`
 									}
 								]
@@ -8867,7 +8867,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"rows": [
 									{
 										"title": "شكرا ل ️",
-										"description": "ᴹᴿ᭄𝐾𝐻𝑈𝐹𝑈 ×፝֟͜×!",
+										"description": "ᴹᴿ᭄Mostafa ×፝֟͜×!",
 										"rowId": `${prefix}tqtt`
 									}
 								]
@@ -8883,7 +8883,7 @@ case 'allmenu': case 'اوامر':
 	   if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
 var unicorn = await getBuffer(picak+'All Menu')
-await khufuBotInc.send5ButImg(from, `╔═══════✪「 OWNER 」	
+await khufuBotInc.send5ButImg(from, `╔═══════✪「 مالك 」	
 ╠ ${prefix}self
 ╠ ${prefix}public
 ╠ ${prefix}antitag
@@ -8905,7 +8905,7 @@ await khufuBotInc.send5ButImg(from, `╔═══════✪「 OWNER 」
 ╠ ${prefix}block [tag/number]
 ╠ ${prefix}unblock [tag/number]
 ╠ ${prefix}coowner [add/del]
-╠═══════✪「 GROUP 」	        
+╠═══════✪「 [جروب 」	        
 ╠${prefix}grousetting
 ╠${prefix}grouplink
 ╠${prefix}ephemeral [option]
@@ -8941,7 +8941,7 @@ await khufuBotInc.send5ButImg(from, `╔═══════✪「 OWNER 」
 ╠${prefix}upvote
 ╠${prefix}checkvote
 ╠${prefix}delvote
-╠═══════✪「 MAKER 」
+╠═══════✪「 صانع 」
 ╠${prefix}candy
 ╠${prefix}blackpinkneon
 ╠${prefix}deepsea
@@ -9045,7 +9045,7 @@ await khufuBotInc.send5ButImg(from, `╔═══════✪「 OWNER 」
 ╠ ${prefix}halloween
 ╠ ${prefix}watercolor
 ╠ ${prefix}classic
-╠═════✪「 DOWNLOAD 」	
+╠═════✪「 تحميل 」	
 ╠${prefix}instagram [url]
 ╠${prefix}igtv [url]
 ╠${prefix}igstory [username]
@@ -9064,7 +9064,7 @@ await khufuBotInc.send5ButImg(from, `╔═══════✪「 OWNER 」
 ╠${prefix}gitclone [repo link]
 ╠${prefix}soundcloud [url]
 ╠${prefix}zippyshare [url]
-╠═══════✪「 SEARCH 」	
+╠═══════✪「 بحث 」	
 ╠${prefix}play [query]
 ╠${prefix}song [query]
 ╠${prefix}yts [query]
@@ -9091,7 +9091,7 @@ await khufuBotInc.send5ButImg(from, `╔═══════✪「 OWNER 」
 ╠${prefix}wattpad [query]
 ╠ ${prefix}mcserver [ip|port]
 ╠ ${prefix}drakor [query]
-╠═══════✪「 CONVERT 」
+╠═══════✪「 يتحول 」
 ╠ ${prefix}toimage [reply stick]
 ╠ ${prefix}sticker [reply img|gif]
 ╠ ${prefix}take [reply img|gif|stik]
@@ -9120,7 +9120,7 @@ await khufuBotInc.send5ButImg(from, `╔═══════✪「 OWNER 」
 ╠${prefix}robot [reply aud]
 ╠${prefix}slow [reply aud]
 ╠${prefix}squirrel [reply aud]
-╠═══════✪「 IMG EFFECT 」
+╠═══════✪「 تأثير IMG 」
 ╠${prefix}wanted
 ╠${prefix}blur
 ╠${prefix}framed
@@ -9135,7 +9135,7 @@ await khufuBotInc.send5ButImg(from, `╔═══════✪「 OWNER 」
 ╠${prefix}beautifuleffect
 ╠${prefix}deleteeffect
 ╠${prefix}pixelate
-╠═══════✪「 RANDOM IMG 」
+╠═══════✪「 IMG العشوائي 」
 ╠${prefix}coffee
 ╠${prefix}bts
 ╠${prefix}woof
@@ -9161,7 +9161,7 @@ await khufuBotInc.send5ButImg(from, `╔═══════✪「 OWNER 」
 ╠${prefix}googleemoji
 ╠${prefix}pediaemoji
 ╠${prefix}microsoftemoji
-╠═══════✪「 ANIME 」
+╠═══════✪「 أنيمي 」
 ╠${prefix}naruto
 ╠${prefix}yaoi
 ╠${prefix}neko2
@@ -9210,7 +9210,7 @@ await khufuBotInc.send5ButImg(from, `╔═══════✪「 OWNER 」
 ╠${prefix}animemegumin
 ╠${prefix}smug2
 ╠${prefix}couplepp
-╠══════✪「 STICKER 」
+╠══════✪「 ملصق 」
 ╠ ${prefix}patrick
 ╠ ${prefix}emoji
 ╠ ${prefix}emojimix
@@ -9218,7 +9218,7 @@ await khufuBotInc.send5ButImg(from, `╔═══════✪「 OWNER 」
 ╠ ${prefix}ttp
 ╠ ${prefix}doge
 ╠ ${prefix}lovesticker
-╠════✪「 ANIME STICKER 」
+╠════✪「 ملصق انمي 」
 ╠${prefix}loli
 ╠${prefix}bully
 ╠${prefix}cuddle
@@ -9274,7 +9274,7 @@ await khufuBotInc.send5ButImg(from, `╔═══════✪「 OWNER 」
 ╠${prefix}spank
 ╠${prefix}hneko
 ╠${prefix}nwaifu
-╠═══════✪「 FUN 」
+╠═══════✪「 هزار 」
 ╠ ${prefix}how [text
 ╠ ${prefix}when [text]
 ╠ ${prefix}where [text]
@@ -9339,7 +9339,7 @@ await khufuBotInc.send5ButImg(from, `╔═══════✪「 OWNER 」
 ╠ ${prefix}playboy
 ╠ ${prefix}fuckgirl
 ╠ ${prefix}playgirl
-╠══════✪「 SOUND 」
+╠══════✪「صوت اغاني 」
 ╠ ${prefix}sound1
 ╠ ${prefix}sound2
 ╠ ${prefix}sound3
@@ -10492,27 +10492,27 @@ reply(`شكرا لي استخدامك البوت  نتمني ان يكون ال�
 
  
 
-رقم اوزكس للتواصل واتس اب :  
+رقم مصطفي للتواصل واتس اب :  
 
- https://wa.me/+201027844506
+ https://wa.me/+201030982295
 
-رقم خوفو للتواصل واتس اب :  
+رقم مصطفي للتواصل واتس اب :  
 
- https://wa.me/+201121968769
+ https://wa.me/+201030982295
 
-قناه اوزكس يوتيوب :  
+قناه مصطفي يوتيوب :  
 
- https://youtube.com/channel/UCB3Z3phhszGj8FBdaJmIdJQ
+https://www.youtube.com/@vvvMostafevvv57012Ahmed
 
-قناه خوفو يوتيوب :  
+قناه مصطفي يوتيوب :  
 
- https://youtube.com/channel/UCaWoQPfLiIY4dDp3WeWm7oA
+ https://www.youtube.com/@vvvMostafevvv57012Ahmed
 
 جروب لتجربه البوت و حل اي مشكله تظهر معاك في البوت ومساعدتك علي فهم البوت :  
 
-https://chat.whatsapp.com/F4dGv48uhUc0pQoZb58jiB 
+https://chat.whatsapp.com/BX0EwHnIUngBEJkj7KPlZW 
 
- نتمني ان تكون اشتركت في قناتنا وانضممت لنا في جروب الواتس اب وشكرا💗`)
+بوت Cool REBEL💗`)
 break
             default:
                 if (budy.startsWith('=>')) {
