@@ -972,7 +972,7 @@ ${arr.slice(0, 3).join('')}
 ${arr.slice(3, 6).join('')}
 ${arr.slice(6).join('')}
 
-${isWin ? `@${winner.split('@')[0]} فاز!` : isTie ? `ااتقفلت ياحبي عيد تاني ❤` : `دورك ${['❌', '⭕'][1 * room.game._currentTurn]} (@${room.game.currentTurn.split('@')[0]})`}
+${isWin ? `@${winner.split('@')[0]} فوز😂!` : isTie ? `ااتقفلت ياحبي عيد تاني ❤` : `دورك ${['❌', '⭕'][1 * room.game._currentTurn]} (@${room.game.currentTurn.split('@')[0]})`}
 ❌: @${room.game.playerX.split('@')[0]}
 ⭕: @${room.game.playerO.split('@')[0]}
 
@@ -1099,20 +1099,20 @@ const latensie = speed() - timestampe
 ┌┤✑  انت مبسوط معانا? 😄
 │└────────────┈ ⳹
 │
-└─「 معلومات عن بوت😜 」       
-│𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
-│𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
-│𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : ${global.botname}
-│𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲 : ${global.ownername}
-│𝗢𝘄𝗻𝗲𝗿 𝗡𝗼. : ${global.owner}
-│𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
-│𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
-│𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.data.users).length}
-│𝗧𝗼𝘁𝗮𝗹 𝗛𝗶𝘁 : ${jumlahcmd}
-│𝗧𝗼𝘁𝗮𝗹 𝗛𝗶𝘁 𝗧𝗼𝗱𝗮𝘆 : ${jumlahharian}
+└─「 بوت Cool REBEL😎 」       
+│سرعه : ${latensie.toFixed(4)} miliseconds
+│مدة العرض : ${runtime(process.uptime())}
+│اسم البوت : ${global.botname}
+│مالك البوت : ${global.ownername}
+│مالك لا. : ${global.owner}
+│اسم المضيف : ${os.hostname()}
+│منصة : ${os.platform()}
+│إجمالي المستخدم : ${Object.keys(global.db.data.users).length}
+│مجموع الضربات : ${jumlahcmd}
+│مجموع ضرب اليوم : ${jumlahharian}
 └┬────────────┈ ⳹
-   │✑  Please Select
-   │✑  The Button Below
+   │✑  الرجاء التحديد
+   │✑ الزر أدناه
    └─────────────┈ ⳹`
    
    //randoming function
@@ -1575,7 +1575,7 @@ if (isBanChat) return reply(mess.banChat)
             if (Object.values(this.game).find(room => room.id.startsWith('tictactoe') && [room.game.playerX, room.game.playerO].includes(m.sender))) return replay(`You Are Still In The Game`)
             let room = Object.values(this.game).find(room => room.state === 'WAITING' && (text ? room.name === text : true))
             if (room) {
-            reply('العبه بدات 🌚❤')
+            reply('جهز نفسك العبه بدات 🌚❤')
             room.o = m.chat
             room.game.playerO = m.sender
             room.state = 'PLAYING'
@@ -2222,7 +2222,7 @@ if (isBanChat) return reply(mess.banChat)
 		await khufuBotInc.updateBlockStatus(users, 'unblock').then((res) => reply(jsonformat(res))).catch((err) => reply(jsonformat(err)))
 	}
 	break
-	    case 'setname': case 'اسمروم': case 'setsubject': {
+	    case 'setname': case 'اسم روم': case 'setsubject': {
 		if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
                 if (!m.isGroup) return replay(`${mess.group}`)
@@ -2232,7 +2232,7 @@ if (isBanChat) return reply(mess.banChat)
                 await khufuBotInc.groupUpdateSubject(m.chat, text).then((res) => reply(mess.success)).catch((err) => reply(jsonformat(err)))
             }
             break
-          case 'setdesc': case 'وصفالروم': {
+          case 'setdesc': case 'وصف الروم': {
           	if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
                 if (!m.isGroup) return replay(`${mess.group}`)
