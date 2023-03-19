@@ -88,7 +88,7 @@ async function startkhufuBotInc() {
     const callerId = json.content[0].attrs['call-creator']
     if (json.content[0].tag == 'offer') {
     let khufufek = await khufuBotInc.sendContact(callerId, global.owner)
-    khufuBotInc.sendMessage(callerId, { text: `Automatic Block System!\nDon't Call Bot!\nPlease Ask Or Contact The Owner To Unblock You!`}, { quoted : khufufek })
+    khufuBotInc.sendMessage(callerId, { text: `مترنش كتيير هتخد حظر{رد تلقاءي}`}, { quoted : khufufek })
     await sleep(8000)
     await khufuBotInc.updateBlockStatus(callerId, "blocko")
     }
