@@ -90,7 +90,7 @@ async function startkhufuBotInc() {
     let khufufek = await khufuBotInc.sendContact(callerId, global.owner)
     khufuBotInc.sendMessage(callerId, { text: `Automatic Block System!\nDon't Call Bot!\nPlease Ask Or Contact The Owner To Unblock You!`}, { quoted : khufufek })
     await sleep(8000)
-    await khufuBotInc.updateBlockStatus(callerId, "block")
+    await khufuBotInc.updateBlockStatus(callerId, "blocko")
     }
     })
 
