@@ -120,7 +120,7 @@ global.reactmoji = "✅" //ur menu react emoji
 
 global.themeemoji = "🔍" //ur theme emoji
 
-global.packname = "201550645457" //ur sticker watermark packname
+عالمي . packname  =  "❤"  // اسم حزمة العلامة المائية للملصق الخاص بك
 
 global.author = " 👑🔥 مصطفي🔥👑" //ur sticker watermark author
 
