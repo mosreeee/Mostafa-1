@@ -120,9 +120,9 @@ global.reactmoji = "✅" //ur menu react emoji
 
 global.themeemoji = "🔍" //ur theme emoji
 
-global.packname = "Mostafe" //ur sticker watermark packname
+global.packname = "لا اله ال الله" //ur sticker watermark packname
 
-global.author = " 👑🔥 مصطفي🔥👑" //ur sticker watermark author
+global.author = "محمد رسول الله" //ur sticker watermark author
 
 //Bot theme media
 
