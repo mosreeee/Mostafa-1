@@ -92,7 +92,7 @@ global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
 
-global.vcardowner = ['201550645457'] //ur owner number
+global.vcardowner = ['201030982295'] //ur owner number
 
 global.ownername = "Mostafe" //ur owner name
 
@@ -104,9 +104,9 @@ global.location = "Egypt" //ur location
 
 //bot bomdy 
 
-global.owner = ['201550645457']
+global.owner = ['201030982295']
 
-global.ownertag = '201550645457' //ur tag number
+global.ownertag = '201030982295' //ur tag number
 
 global.botname = 'ᴹᴿ᭄ Bot Whatsapp ×፝֟͜×' //ur bot name
 
@@ -120,9 +120,9 @@ global.reactmoji = "✅" //ur menu react emoji
 
 global.themeemoji = "🔍" //ur theme emoji
 
-global.packname = "لا اله ال الله" //ur sticker watermark packname
+global.packname = "💖لا اله ال الله💖" //ur sticker watermark packname
 
-global.author = "محمد رسول الله" //ur sticker watermark author
+global.author = "💖محمد رسول الله💖" //ur sticker watermark author
 
 //Bot theme media
 
@@ -186,33 +186,33 @@ global.sp = '⭔'
 
 global.mess = {
 
-    success: 'ضن✓',
+    success: '💗تم✓💗',
 
     admin: 'لازم تكون ادمن الاول ',
 
-    botAdmin: 'لازم اكون ادمن  الاول ',
+    botAdmin: '💥لازم اكون ادمن  الاول💥 ',
 
-    owner: 'ميزه دي ل مالك البوت فقط ',
+    owner: '💬ميزه دي ل مالك البوت فقط💬 ',
 
-    group: 'فقط في رومات ',
+    group: '😈فقط في رومات😈 ',
 
-    private: 'برايفت بس!',
+    private: '😁خاص بس!😁',
 
-    bot: 'ميزه دي ل بوت فقط',
+    bot: '😳ميزه دي ل بوت فقط😳',
 
-    wait: 'استني ....',
+    wait: '💩استني ....',
 
-    linkm: 'فين لينك؟',
+    linkm: '👿فين لينك؟',
 
-    error: 'ايرور!!!!',
+    error: '😡ايرور!!!!',
 
     endLimit: 'تعالا بكره !',
 
-    ban: 'لا استطيع ارسال اي شئ لان مالك قام بحظر هاذا روم !',
+    ban: '🥱لا استطيع ارسال اي شئ لان مالك قام بحظر هاذا روم !',
 
-    nsfw: 'ميزه مقفوله خلي الادمن يشغلها!',
+    nsfw: '🤡ميزه مقفوله خلي الادمن يشغلها!',
 
-    banChat: ''
+    banChat: '🤣🤣'
 
 }
 
